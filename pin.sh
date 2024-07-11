@@ -7,7 +7,7 @@ if [ $# != 0 ]
 then
 
     # Set up our argument variables
-    arg1="$1"
+    arg1="$((512+$1))"
     arg2="$2"
 
     # If the gpio pin was not previously set up
